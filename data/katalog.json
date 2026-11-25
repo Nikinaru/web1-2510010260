@@ -1,0 +1,130 @@
+[
+    {
+        "id": 1,
+        "nama": "Kain Motif Gigi Haruan",
+        "kategori": "kain",
+        "harga": 185000,
+        "gambar": "img/gigi-haruan.svg",
+        "deskripsi": "Kain katun 2 meter bermotif zig-zag menyerupai gigi ikan haruan."
+    },
+    {
+        "id": 2,
+        "nama": "Kain Motif Kambang Kacang",
+        "kategori": "kain",
+        "harga": 175000,
+        "gambar": "img/kambang-kacang.svg",
+        "deskripsi": "Motif bunga kacang yang melambangkan keakraban dan kerukunan."
+    },
+    {
+        "id": 3,
+        "nama": "Kain Motif Bayam Raja",
+        "kategori": "kain",
+        "harga": 175000,
+        "gambar": "img/bayam-raja.svg",
+        "deskripsi": "Motif daun bayam raja yang melambangkan martabat dan kehormatan."
+    },
+    {
+        "id": 4,
+        "nama": "Kain Motif Naga Balimbur",
+        "kategori": "kain",
+        "harga": 195000,
+        "gambar": "img/naga-balimbur.svg",
+        "deskripsi": "Motif naga balimbur yang melambangkan keberanian dan perlindungan."
+    },
+    {
+        "id": 5,
+        "nama": "Kain Motif Ombak Sinapur Karang",
+        "kategori": "kain",
+        "harga": 190000,
+        "gambar": "img/ombak-sinapur-karang.svg",
+        "deskripsi": "Motif ombak yang menyapu karang, lambang semangat pantang surut."
+    },
+    {
+        "id": 6,
+        "nama": "Selendang Iris Pudak",
+        "kategori": "aksesoris",
+        "harga": 120000,
+        "gambar": "img/iris-pudak.svg",
+        "deskripsi": "Selendang ringan bermotif irisan daun pudak (pandan)."
+    },
+    {
+        "id": 7,
+        "nama": "Kemeja Sasirangan Banjar",
+        "kategori": "pakaian",
+        "harga": 265000,
+        "gambar": "img/kemeja-sasirangan.svg",
+        "deskripsi": "Kemeja lengan panjang berbahan katun dengan motif sasirangan khas Banjar."
+    },
+    {
+        "id": 8,
+        "nama": "Blus Sasirangan Kembang",
+        "kategori": "pakaian",
+        "harga": 245000,
+        "gambar": "img/blus-sasirangan.svg",
+        "deskripsi": "Blus wanita lengan tiga per empat dengan motif kembang yang lembut."
+    },
+    {
+        "id": 9,
+        "nama": "Rok Span Sasirangan",
+        "kategori": "pakaian",
+        "harga": 210000,
+        "gambar": "img/rok-sasirangan.svg",
+        "deskripsi": "Rok span panjang dengan motif sasirangan yang anggun untuk acara formal."
+    },
+    {
+        "id": 10,
+        "nama": "Outer Sasirangan Modern",
+        "kategori": "pakaian",
+        "harga": 285000,
+        "gambar": "img/outer-sasirangan.svg",
+        "deskripsi": "Outer panjang berbahan katun rayon dengan motif sasirangan untuk gaya kasual."
+    },
+    {
+        "id": 11,
+        "nama": "Daster Sasirangan Nyaman",
+        "kategori": "pakaian",
+        "harga": 165000,
+        "gambar": "img/daster-sasirangan.svg",
+        "deskripsi": "Daster berbahan katun lembut bermotif sasirangan untuk pemakaian harian."
+    },
+    {
+        "id": 12,
+        "nama": "Tas Jinjing Sasirangan",
+        "kategori": "aksesoris",
+        "harga": 135000,
+        "gambar": "img/tas-sasirangan.svg",
+        "deskripsi": "Tas jinjing kain sasirangan dengan pegangan kuat untuk kegiatan harian."
+    },
+    {
+        "id": 13,
+        "nama": "Peci Sasirangan Banjar",
+        "kategori": "aksesoris",
+        "harga": 95000,
+        "gambar": "img/peci-sasirangan.svg",
+        "deskripsi": "Peci khas Banjar berlapis kain sasirangan, cocok untuk busana adat."
+    },
+    {
+        "id": 14,
+        "nama": "Syal Sasirangan Kembang",
+        "kategori": "aksesoris",
+        "harga": 85000,
+        "gambar": "img/syal-sasirangan.svg",
+        "deskripsi": "Syal ringan bermotif kembang sasirangan untuk melengkapi penampilan."
+    },
+    {
+        "id": 15,
+        "nama": "Dompet Sasirangan",
+        "kategori": "aksesoris",
+        "harga": 75000,
+        "gambar": "img/dompet-sasirangan.svg",
+        "deskripsi": "Dompet kecil berbahan kain sasirangan dengan penutup resleting."
+    },
+    {
+        "id": 16,
+        "nama": "Ikat Pinggang Sasirangan",
+        "kategori": "aksesoris",
+        "harga": 65000,
+        "gambar": "img/ikat-pinggang-sasirangan.svg",
+        "deskripsi": "Ikat pinggang kain sasirangan untuk mempermanis busana adat maupun kasual."
+    }
+]
