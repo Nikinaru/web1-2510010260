@@ -6,12 +6,12 @@
 
  /* ---------- 1. Variabel (custom properties) ---------- */
  :root {
-     --warna-utama: #8b1e3f;
+     --warna-utama: #1f630e;
      /* merah marun sasirangan */
-     --warna-utama-gelap: #6a142f;
+     --warna-utama-gelap: #0c7e01;
      --warna-aksen: #e0a526;
      /* kuning kunyit */
-     --warna-krem: #fbe9c6;
+     --warna-krem: #e4fbc6;
      --warna-teks: #222222;
      --warna-teks-lembut: #555555;
      --warna-latar: #fffaf3;
@@ -227,119 +227,219 @@
  }
 
 
- /* ---------- 8. Tabel ---------- */ 
-table { 
-  width: 100%; 
-  border-collapse: collapse; 
-  background-color: var(--warna-kartu); 
-  box-shadow: var(--bayangan); 
-} 
- 
-caption { 
-  margin-bottom: 0.5rem; 
-  font-weight: 600; 
-  text-align: left; 
-} 
- 
-th, 
-td { 
-  padding: 0.75rem 1rem; 
-  border-bottom: 1px solid #eeeeee; 
-  text-align: left; 
-} 
- 
-thead th { 
-  background-color: var(--warna-utama); 
-  color: #ffffff; 
-}
+ /* ---------- 8. Tabel ---------- */
+ table {
+     width: 100%;
+     border-collapse: collapse;
+     background-color: var(--warna-kartu);
+     box-shadow: var(--bayangan);
+ }
+
+ caption {
+     margin-bottom: 0.5rem;
+     font-weight: 600;
+     text-align: left;
+ }
+
+ th,
+ td {
+     padding: 0.75rem 1rem;
+     border-bottom: 1px solid #eeeeee;
+     text-align: left;
+ }
+
+ thead th {
+     background-color: var(--warna-utama);
+     color: #ffffff;
+ }
 
 
-/* ---------- 9. Formulir ---------- */ 
-.form-pesan { 
-  display: grid; 
-  gap: 1rem; 
-  max-width: 40rem; 
-  padding: 1.5rem; 
-  border-radius: var(--radius); 
-  background-color: var(--warna-kartu); 
-  box-shadow: var(--bayangan); 
-}
-.kolom { 
-  display: flex; 
-  flex-direction: column; 
-  gap: 0.35rem; 
-} 
- 
-label, 
-legend { 
-  font-weight: 600; 
-} 
- 
-input, 
-select, 
-textarea { 
-  width: 100%; 
-  padding: 0.65rem 0.75rem; 
-  border: 1px solid #b5b5b5; 
-  border-radius: 8px; 
-  font: inherit; 
-} 
- 
-fieldset { 
-  display: flex; 
-  flex-direction: column; 
-  gap: 0.35rem; 
-  border: 1px solid #dddddd; 
-  border-radius: 8px; 
-} 
- 
-fieldset label, 
-.cek { 
-  display: flex; 
-  align-items: center; 
-  gap: 0.5rem; 
-  font-weight: 400; 
-} 
- 
-input[type="radio"], 
-input[type="checkbox"] { 
-  width: auto; 
-} 
+ /* ---------- 9. Formulir ---------- */
+ .form-pesan {
+     display: grid;
+     gap: 1rem;
+     max-width: 40rem;
+     padding: 1.5rem;
+     border-radius: var(--radius);
+     background-color: var(--warna-kartu);
+     box-shadow: var(--bayangan);
+ }
+
+ .kolom {
+     display: flex;
+     flex-direction: column;
+     gap: 0.35rem;
+ }
+
+ label,
+ legend {
+     font-weight: 600;
+ }
+
+ input,
+ select,
+ textarea {
+     width: 100%;
+     padding: 0.65rem 0.75rem;
+     border: 1px solid #b5b5b5;
+     border-radius: 8px;
+     font: inherit;
+ }
+
+ fieldset {
+     display: flex;
+     flex-direction: column;
+     gap: 0.35rem;
+     border: 1px solid #dddddd;
+     border-radius: 8px;
+ }
+
+ fieldset label,
+ .cek {
+     display: flex;
+     align-items: center;
+     gap: 0.5rem;
+     font-weight: 400;
+ }
+
+ input[type="radio"],
+ input[type="checkbox"] {
+     width: auto;
+ }
 
 
 
-/* ---------- 10. Footer ---------- */ 
-.footer-situs { 
-  padding: 2rem 1rem; 
-  background-color: #2b2b2b; 
-  color: #eeeeee; 
-  font-size: 0.9rem; 
-  text-align: center; 
-} 
- 
-.footer-situs p { 
-  margin: 0.25rem 0; 
-}
-/* ---------- 11. Responsif: tablet & desktop ---------- */ 
-@media (min-width: 768px) { 
-  .header-situs { 
-    flex-direction: row;          /* logo kiri, menu kanan */ 
-    justify-content: space-between; 
-    padding-inline: 2rem; 
-  } 
- 
-  .hero { 
-    padding: 6rem 2rem; 
-  } 
-} 
- 
-/* Hormati pengguna yang tidak ingin banyak animasi */ 
-@media (prefers-reduced-motion: reduce) { 
-  html { 
-    scroll-behavior: auto; 
-  } 
- 
-  * { 
-    transition: none !important; 
-  } 
-} 
+ /* ---------- 10. Footer ---------- */
+ .footer-situs {
+     padding: 2rem 1rem;
+     background-color: #2b2b2b;
+     color: #eeeeee;
+     font-size: 0.9rem;
+     text-align: center;
+ }
+
+ .footer-situs p {
+     margin: 0.25rem 0;
+ }
+
+ /* ---------- 11. Responsif: tablet & desktop ---------- */
+ @media (min-width: 768px) {
+     .header-situs {
+         flex-direction: row;
+         /* logo kiri, menu kanan */
+         justify-content: space-between;
+         padding-inline: 2rem;
+     }
+
+     .hero {
+         padding: 6rem 2rem;
+     }
+ }
+
+ /* Hormati pengguna yang tidak ingin banyak animasi */
+ @media (prefers-reduced-motion: reduce) {
+     html {
+         scroll-behavior: auto;
+     }
+
+     * {
+         transition: none !important;
+     }
+ }
+
+ /* ---------- 12. Komponen interaktif (Modul 3) ---------- */
+ .kontrol-katalog {
+     display: flex;
+     flex-direction: column;
+     gap: 1rem;
+     margin-bottom: 1rem;
+ }
+
+ .filter {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 0.5rem;
+ }
+
+ .tombol-filter {
+     padding: 0.5rem 1rem;
+     border: 2px solid var(--warna-utama);
+     border-radius: 999px;
+     background-color: transparent;
+     color: var(--warna-utama);
+     font: inherit;
+     font-weight: 600;
+     cursor: pointer;
+ }
+
+ .tombol-filter:hover,
+ .tombol-filter.aktif {
+     background-color: var(--warna-utama);
+     color: #ffffff;
+ }
+
+ .info-jumlah {
+     color: var(--warna-teks-lembut);
+     font-size: 0.95rem;
+ }
+
+ .label-kategori {
+     align-self: flex-start;
+     margin-bottom: 0.5rem;
+     padding: 0.15rem 0.6rem;
+     border-radius: 999px;
+     background-color: var(--warna-krem);
+     color: #6a4a00;
+     font-size: 0.75rem;
+     font-weight: 700;
+     letter-spacing: 0.05em;
+     text-transform: uppercase;
+ }
+
+ .pesan-error {
+     margin: 0;
+     color: #b00020;
+     font-size: 0.9rem;
+ }
+
+ .pesan-error:empty {
+     display: none;
+     /* sembunyikan jika belum ada pesan */
+ }
+
+ [aria-invalid="true"] {
+     border-color: #b00020;
+     background-color: #fff5f6;
+ }
+
+ .hasil-pesan {
+     max-width: 40rem;
+     margin-top: 2rem;
+     padding: 1.5rem;
+     border-left: 6px solid var(--warna-aksen);
+     border-radius: var(--radius);
+     background-color: var(--warna-kartu);
+     box-shadow: var(--bayangan);
+ }
+
+ .hasil-pesan h2 {
+     margin-top: 0;
+ }
+
+ .hasil-pesan pre {
+     white-space: pre-wrap;
+     font-family: inherit;
+ }
+
+ @media (min-width: 768px) {
+     .kontrol-katalog {
+         flex-direction: row;
+         align-items: flex-end;
+         justify-content: space-between;
+     }
+
+     .kontrol-katalog .kolom {
+         flex: 1;
+         max-width: 22rem;
+     }
+ }

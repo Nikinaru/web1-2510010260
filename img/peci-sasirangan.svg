@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs><pattern id="p" width="36" height="36" patternUnits="userSpaceOnUse">
+        <path d="M18 4 L32 18 L18 32 L4 18 Z" fill="none" stroke="#e0a526" stroke-width="4"/></pattern></defs>
+  <rect width="600" height="400" fill="#1f1a1a"/>
+  <rect width="600" height="400" fill="url(#p)" opacity="0.6"/>
+  <rect x="60" y="150" width="480" height="100" rx="14" fill="#ffffff" opacity="0.92"/>
+  <text x="300" y="196" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#1f1a1a">Peci Sasirangan</text>
+  <text x="300" y="230" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#444">Sasirangan Banua · gambar contoh</text>
+</svg>
